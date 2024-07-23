@@ -6,7 +6,7 @@ import mimetypes
 
 # Google Drive credentials
 credentials = service_account.Credentials.from_service_account_file(
-    'F:\clo900 CP ETL\credentials.json',
+    '/Users/p.mihir/Desktop/CLO900-Cloud-Native-ETL/credentials.json',
     scopes=['https://www.googleapis.com/auth/drive']
 )
 

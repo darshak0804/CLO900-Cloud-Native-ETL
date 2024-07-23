@@ -8,6 +8,3 @@ def lambda_handler(event, context):
     job_run_id = response['JobRunId']
     
     print(f"Started AWS Glue Job '{job_run_id}'")
-    
-    # Optionally, you can monitor job status or handle other tasks here
-    # based on the response from Glue.
